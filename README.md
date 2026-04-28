@@ -4,23 +4,29 @@ Infrastructure / Linux / HomeLab focused student.
 Building tools for self-hosted environments, automation, and web applications.
 
 ![Focus](https://img.shields.io/badge/Focus-Infrastructure%20%2F%20Linux%20%2F%20HomeLab-blue)
-![Docker](https://img.shields.io/badge/Docker-Compose-informational?logo=docker)
-![Ansible](https://img.shields.io/badge/Ansible-IaC-informational?logo=ansible)
-![Tailscale](https://img.shields.io/badge/Tailscale-Network-informational?logo=tailscale)
-![Linux](https://img.shields.io/badge/Linux-Server-informational?logo=linux)
+![Linux](https://img.shields.io/badge/Linux-Server-FCC624?logo=linux&logoColor=black)
+![Proxmox VE](https://img.shields.io/badge/Proxmox%20VE-Virtualization-E57000?logo=proxmox&logoColor=white)
+![Tailscale](https://img.shields.io/badge/Tailscale-Networking-242424?logo=tailscale&logoColor=white)
+![Ansible](https://img.shields.io/badge/Ansible-IaC-EE0000?logo=ansible&logoColor=white)
+![Shell](https://img.shields.io/badge/Shell-Scripting-4EAA25?logo=gnubash&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-Web-3178C6?logo=typescript&logoColor=white)
+![Java](https://img.shields.io/badge/Java-Backend-007396?logo=openjdk&logoColor=white)
+![Python](https://img.shields.io/badge/Python-Scripting-3776AB?logo=python&logoColor=white)
+![Azure](https://img.shields.io/badge/Azure-Cloud-0078D4?logo=microsoftazure&logoColor=white)
 
 ---
 
 ## Focus
 
-- Linux / HomeLab
-- Docker / Docker Compose
-- Tailscale
+- Linux / Server Administration
+- Proxmox VE / HomeLab
+- Tailscale / Private Networking
+- Ansible / Configuration Management
 - Shell scripting
-- Ansible
-- Java / Servlet / JSP
-- JavaScript / TypeScript
-- Azure Functions
+- TypeScript / Web applications
+- Java / Backend applications
+- Python / Automation
+- Azure / Serverless
 
 
 ## Featured Projects
