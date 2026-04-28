@@ -22,17 +22,6 @@ Building tools for self-hosted environments, automation, and web applications.
 - JavaScript / TypeScript
 - Azure Functions
 
-## HomeLab Direction
-
-```mermaid
-flowchart LR
-    Client[iPad / Laptop] --> Tailscale[Tailscale]
-    Tailscale --> Server[Home Server]
-    Server --> Docker[Docker Compose]
-    Docker --> Apps[Self-hosted Apps]
-    Server --> Ansible[Ansible Playbooks]
-    Server --> Monitoring[Monitoring / Logs]
-```
 
 ## Featured Projects
 
