@@ -1,6 +1,15 @@
 # B-i-i-t
 
-インフラ・Linux・自宅サーバー運用を中心に、運用自動化ツールやWebアプリケーションを制作しています。
+Infrastructure / Linux / HomeLab focused student.  
+Building tools for self-hosted environments, automation, and web applications.
+
+![Focus](https://img.shields.io/badge/Focus-Infrastructure%20%2F%20Linux%20%2F%20HomeLab-blue)
+![Docker](https://img.shields.io/badge/Docker-Compose-informational?logo=docker)
+![Ansible](https://img.shields.io/badge/Ansible-IaC-informational?logo=ansible)
+![Tailscale](https://img.shields.io/badge/Tailscale-Network-informational?logo=tailscale)
+![Linux](https://img.shields.io/badge/Linux-Server-informational?logo=linux)
+
+---
 
 ## Focus
 
@@ -13,51 +22,29 @@
 - JavaScript / TypeScript
 - Azure Functions
 
+## HomeLab Direction
+
+```mermaid
+flowchart LR
+    Client[iPad / Laptop] --> Tailscale[Tailscale]
+    Tailscale --> Server[Home Server]
+    Server --> Docker[Docker Compose]
+    Docker --> Apps[Self-hosted Apps]
+    Server --> Ansible[Ansible Playbooks]
+    Server --> Monitoring[Monitoring / Logs]
+```
+
 ## Featured Projects
 
-### AgentPad
-iPadからLinux開発環境を操作するためのWebベースツールです。
+| Project | Description | Stack |
+|---|---|---|
+| AgentPad | Web-based tool for operating a Linux development environment from an iPad | Linux, PTY, Docker, PWA |
+| Tailscale Waybar Module | Waybar module for displaying Tailscale connection status | Shell, Tailscale, Waybar |
+| School Automation Tool | Web tool using GitHub Pages, Azure Functions, and Gemini API | JavaScript, Azure Functions, Gemini API |
+| Score Management System | Web application for managing students, subjects, and scores | Java, Servlet/JSP, H2, BCrypt |
 
-- ブラウザ経由のPTY接続
-- ファイルツリー表示
-- ファイルプレビュー
-- Git diff表示
-- PWA対応
-- Docker Compose構成
+## GitHub Activity
 
-### Tailscale Waybar Module
-Tailscaleの接続状態をWaybarに表示するShell製カスタムモジュールです。
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=B-i-i-t&show_icons=true&hide_title=true&hide_border=true)
 
-- Shell scripting
-- Tailscale状態取得
-- Linuxデスクトップ環境向け
-
-### School Automation Tool
-GitHub Pages、Azure Functions、Gemini APIを利用した学校作業支援ツールです。
-
-- GitHub Pagesによる静的フロントエンド
-- Azure FunctionsによるサーバーレスAPI
-- バックエンド側でのAPIキー管理
-- CORS設定
-
-### Score Management System
-Java Servlet/JSP、H2 Database、BCryptを用いた成績管理Webアプリケーションです。
-
-- Java 21
-- Jakarta Servlet / JSP
-- H2 Database
-- BCrypt認証
-- Maven / Tomcat
-
-## HomeLab
-
-自宅サーバー環境を運用しており、Ansibleによる構成管理を準備中です。
-
-今後整理予定の内容:
-
-- サーバー構成
-- ネットワーク構成
-- Docker Composeによるサービス管理
-- Tailscaleによる接続
-- バックアップ方針
-- Ansible roles / playbooks
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=B-i-i-t&layout=compact&hide_border=true)
