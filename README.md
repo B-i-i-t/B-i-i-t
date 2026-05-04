@@ -7,7 +7,6 @@ Building tools for self-hosted environments, automation, and web applications.
 ![Linux](https://img.shields.io/badge/Linux-Server-FCC624?logo=linux&logoColor=black)
 ![Proxmox VE](https://img.shields.io/badge/Proxmox%20VE-Virtualization-E57000?logo=proxmox&logoColor=white)
 ![Tailscale](https://img.shields.io/badge/Tailscale-Networking-242424?logo=tailscale&logoColor=white)
-![Ansible](https://img.shields.io/badge/Ansible-IaC-EE0000?logo=ansible&logoColor=white)
 ![Shell](https://img.shields.io/badge/Shell-Scripting-4EAA25?logo=gnubash&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-Web-3178C6?logo=typescript&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-Backend-007396?logo=openjdk&logoColor=white)
