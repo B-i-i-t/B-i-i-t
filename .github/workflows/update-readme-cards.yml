@@ -14,20 +14,42 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
 
       - name: Generate profile card assets
         run: |
           mkdir -p profile
-          curl --fail --silent --show-error --location \
+
+          fetch_svg() {
+            local url="$1"
+            local output="$2"
+            local temp_file
+            temp_file="$(mktemp)"
+
+            if curl --fail --silent --show-error --location --retry 3 --retry-delay 5 "$url" --output "$temp_file"; then
+              if grep -q "<svg" "$temp_file"; then
+                mv "$temp_file" "$output"
+                echo "Updated $output"
+              else
+                echo "::warning::Downloaded content for $output was not SVG. Keeping existing file."
+                rm -f "$temp_file"
+              fi
+            else
+              echo "::warning::Could not download $output. Keeping existing file."
+              rm -f "$temp_file"
+            fi
+          }
+
+          fetch_svg \
             "https://github-readme-stats.vercel.app/api?username=B-i-i-t&show_icons=true&hide_title=true&hide_border=true" \
-            --output profile/stats.svg
-          curl --fail --silent --show-error --location \
+            "profile/stats.svg"
+
+          fetch_svg \
             "https://github-readme-stats.vercel.app/api/top-langs/?username=B-i-i-t&layout=compact&hide_border=true" \
-            --output profile/top-langs.svg
+            "profile/top-langs.svg"
 
       - name: Commit generated cards
-        uses: stefanzweifel/git-auto-commit-action@v5
+        uses: stefanzweifel/git-auto-commit-action@v7
         with:
           commit_message: "Update generated README cards"
           file_pattern: "profile/stats.svg profile/top-langs.svg"
