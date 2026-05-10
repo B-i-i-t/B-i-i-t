@@ -1,8 +1,16 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="495" height="195" viewBox="0 0 495 195" role="img" aria-labelledby="title desc">
   <title id="title">GitHub Stats</title>
-  <desc id="desc">Placeholder GitHub stats card. This file is updated by GitHub Actions.</desc>
+  <desc id="desc">Repository summary for B-i-i-t.</desc>
+  <style>
+    .title { fill: #24292f; font: 600 18px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+    .label { fill: #57606a; font: 14px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+    .value { fill: #24292f; font: 600 14px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; text-anchor: end; }
+  </style>
   <rect width="495" height="195" rx="6" fill="#ffffff" stroke="#d0d7de" />
-  <text x="24" y="44" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="600" fill="#24292f">GitHub Stats</text>
-  <text x="24" y="84" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#57606a">This card is generated daily by GitHub Actions.</text>
-  <text x="24" y="116" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#57606a">Initial placeholder for B-i-i-t.</text>
+  <text x="32" y="42" class="title">GitHub Stats</text>
+<text x="32" y="82" class="label">Public repositories</text><text x="360" y="82" class="value">9</text>
+<text x="32" y="106" class="label">Stars</text><text x="360" y="106" class="value">0</text>
+<text x="32" y="130" class="label">Forks</text><text x="360" y="130" class="value">0</text>
+<text x="32" y="154" class="label">Primary language</text><text x="360" y="154" class="value">Java</text>
+<text x="32" y="178" class="label">Recently updated</text><text x="360" y="178" class="value">2026-05-10</text>
 </svg>
