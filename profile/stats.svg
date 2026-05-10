@@ -8,9 +8,9 @@
   </style>
   <rect width="495" height="195" rx="6" fill="#0d1117" stroke="#30363d" />
   <text x="32" y="42" class="title">GitHub Stats</text>
-  <text x="32" y="82" class="label">Public repositories</text><text x="360" y="82" class="value">9</text>
-  <text x="32" y="106" class="label">Stars</text><text x="360" y="106" class="value">0</text>
-  <text x="32" y="130" class="label">Forks</text><text x="360" y="130" class="value">0</text>
-  <text x="32" y="154" class="label">Primary language</text><text x="360" y="154" class="value">Java</text>
-  <text x="32" y="178" class="label">Recently updated</text><text x="360" y="178" class="value">2026-05-10</text>
+<text x="32" y="82" class="label">Public repositories</text><text x="360" y="82" class="value">9</text>
+<text x="32" y="106" class="label">Stars</text><text x="360" y="106" class="value">0</text>
+<text x="32" y="130" class="label">Forks</text><text x="360" y="130" class="value">0</text>
+<text x="32" y="154" class="label">Primary language</text><text x="360" y="154" class="value">Java</text>
+<text x="32" y="178" class="label">Recently updated</text><text x="360" y="178" class="value">2026-05-10</text>
 </svg>
