@@ -1,6 +1,7 @@
 # B-i-i-t
 
-Infrastructure / Linux / HomeLab focused student.  
+Infrastructure / Linux / HomeLab focused student portfolio.
+
 Building tools for self-hosted environments, automation, and web applications.
 
 ![Focus](https://img.shields.io/badge/Focus-Infrastructure%20%2F%20Linux%20%2F%20HomeLab-blue)
@@ -27,18 +28,21 @@ Building tools for self-hosted environments, automation, and web applications.
 - Python / Automation
 - Azure / Serverless
 
-
 ## Featured Projects
 
 | Project | Description | Stack |
 |---|---|---|
-| AgentPad | Web-based tool for operating a Linux development environment from an iPad | Linux, PTY, Docker, PWA |
-| Tailscale Waybar Module | Waybar module for displaying Tailscale connection status | Shell, Tailscale, Waybar |
-| School Automation Tool | Web tool using GitHub Pages, Azure Functions, and Gemini API | JavaScript, Azure Functions, Gemini API |
-| Score Management System | Web application for managing students, subjects, and scores | Java, Servlet/JSP, H2, BCrypt |
+| [AgentPad](https://github.com/B-i-i-t/AgentPad) | Web-based tool for operating a Linux development environment from an iPad | Linux, PTY, Docker, PWA |
+| [Tailscale Waybar Module](https://github.com/B-i-i-t/Tailscale-Waybar-Module) | Waybar module for displaying Tailscale connection status | Shell, Tailscale, Waybar |
+| [School Automation Tool](https://github.com/B-i-i-t/School-Automation-tool-public) | Web tool using GitHub Pages, Azure Functions, and Gemini API | JavaScript, Azure Functions, Gemini API |
+| [Score Management System](https://github.com/B-i-i-t/kadai_Point_Management_Public) | Web application for managing students, subjects, and scores | Java, Servlet/JSP, H2, BCrypt |
 
 ## GitHub Activity
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=B-i-i-t&show_icons=true&hide_title=true&hide_border=true)
+<p>
+  <img src="./profile/stats.svg" alt="GitHub Stats" />
+</p>
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=B-i-i-t&layout=compact&hide_border=true)
+<p>
+  <img src="./profile/top-langs.svg" alt="Top Languages" />
+</p>

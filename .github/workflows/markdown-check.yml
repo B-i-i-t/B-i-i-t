@@ -1,0 +1,28 @@
+name: Markdown check
+
+on:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  markdown-check:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Lint README Markdown
+        run: npx --yes markdownlint-cli@0.45.0 --disable MD013 MD033 -- README.md
+
+      - name: Check README links
+        uses: lycheeverse/lychee-action@v2
+        with:
+          args: >-
+            --no-progress
+            --exclude-path profile
+            --exclude '^https://img\.shields\.io/'
+            README.md

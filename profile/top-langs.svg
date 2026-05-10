@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="165" viewBox="0 0 300 165" role="img" aria-labelledby="title desc">
+  <title id="title">Top Languages</title>
+  <desc id="desc">Placeholder top languages card. This file is updated by GitHub Actions.</desc>
+  <rect width="300" height="165" rx="6" fill="#ffffff" stroke="#d0d7de" />
+  <text x="20" y="40" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="600" fill="#24292f">Top Languages</text>
+  <text x="20" y="78" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#57606a">Generated daily by</text>
+  <text x="20" y="102" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#57606a">GitHub Actions.</text>
+</svg>

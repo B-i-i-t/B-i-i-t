@@ -1,0 +1,33 @@
+name: Update README cards
+
+on:
+  schedule:
+    - cron: "17 3 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-cards:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Generate profile card assets
+        run: |
+          mkdir -p profile
+          curl --fail --silent --show-error --location \
+            "https://github-readme-stats.vercel.app/api?username=B-i-i-t&show_icons=true&hide_title=true&hide_border=true" \
+            --output profile/stats.svg
+          curl --fail --silent --show-error --location \
+            "https://github-readme-stats.vercel.app/api/top-langs/?username=B-i-i-t&layout=compact&hide_border=true" \
+            --output profile/top-langs.svg
+
+      - name: Commit generated cards
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Update generated README cards"
+          file_pattern: "profile/stats.svg profile/top-langs.svg"
